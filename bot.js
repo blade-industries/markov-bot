@@ -5,7 +5,7 @@ var textLines = text.split('\n');
 
 const data = textLines;
 
-const markov = new Markov(data, {stateSize: 2});
+const markov = new Markov(data, {stateSize: 1});
 markov.buildCorpus();
 
 const options = {
